@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\alphabet">
+      <UniqueIdentifier>{39c754ca-663e-4e64-8243-ac05deed7629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sceneClasses">
+      <UniqueIdentifier>{7da142ed-f617-4fad-af7b-313695c35431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fileLoadsClasses">
+      <UniqueIdentifier>{3358e89b-efe9-4251-acb7-0fb2d6844a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sceneClasses\derivedSceneClasses">
+      <UniqueIdentifier>{e5dd91fe-7148-4fdc-a435-69c7b7dfe92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fileLoadsClasses\derivedLoadsClasses">
+      <UniqueIdentifier>{023b0473-a149-46f7-bf87-ea7b06b38ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fileLoadsClasses">
+      <UniqueIdentifier>{505247c0-fb9e-46ee-afb0-fbc6806e25f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fileLoadsClasses\derivedLoadsClasses">
+      <UniqueIdentifier>{3f057fe8-6fa9-4de3-9812-66c25e5e710d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sceneClasses">
+      <UniqueIdentifier>{3b45e453-f4ab-48d8-bef3-7336425b0b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sceneClasses\derivedSceneClasses">
+      <UniqueIdentifier>{55647bbc-f581-4d5f-96f3-f3a0c0de1928}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMenu.cpp">
+      <Filter>Source Files\sceneClasses\derivedSceneClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wordleclassicmode.cpp">
+      <Filter>Source Files\sceneClasses\derivedSceneClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="scoreScene.cpp">
+      <Filter>Source Files\sceneClasses\derivedSceneClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files\sceneClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="fileLoaderRawData.cpp">
+      <Filter>Source Files\fileLoadsClasses\derivedLoadsClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="fileLoaderDictionary.cpp">
+      <Filter>Source Files\fileLoadsClasses\derivedLoadsClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualFileLoader.cpp">
+      <Filter>Source Files\fileLoadsClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="myList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testListClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addToDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileLoaderDictionary.h">
+      <Filter>Header Files\fileLoadsClasses\derivedLoadsClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="fileLoaderRawData.h">
+      <Filter>Header Files\fileLoadsClasses\derivedLoadsClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files\sceneClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wordleclassicmode.h">
+      <Filter>Header Files\sceneClasses\derivedSceneClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="mainMenu.h">
+      <Filter>Header Files\sceneClasses\derivedSceneClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="virtualFileLoader.h">
+      <Filter>Header Files\fileLoadsClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="scoreScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testListClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addToDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="image1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="mainMenu.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="dictionary.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="A.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="B.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="C.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="D.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="E.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="F.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="G.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="H.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="I.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="J.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="K.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="L.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="M.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="N.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="O.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="P.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="R.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="S.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="T.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="Q.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="U.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="W.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="X.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="Z.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="Y.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="V.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="1.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="2.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="3.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="4.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="5.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="0.txt">
+      <Filter>Resource Files\alphabet</Filter>
+    </Text>
+    <Text Include="bestResults.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fileWithScores.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

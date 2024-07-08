@@ -1,0 +1,4 @@
+1. Normal game
+2. Results
+3. Exit the game 
+4. Add your word
