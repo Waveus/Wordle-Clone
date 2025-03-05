@@ -1,5 +1,5 @@
 # Wordle-Clone
-ASCII Art Wordle using only my own implementation of list with an iterator. 
+ASCII Art Wordle using a custom implementation of a generic list with its own iterator. 
 
 ## Preview.
 ### Menu.
